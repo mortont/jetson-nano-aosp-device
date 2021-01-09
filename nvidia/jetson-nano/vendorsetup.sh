@@ -1,0 +1,1 @@
+add_lunch_combo jetson_nano-userdebug

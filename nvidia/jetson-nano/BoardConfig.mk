@@ -1,0 +1,22 @@
+TARGET_ARCH := arm64
+TARGET_ARCH_VARIANT := armv8-a
+TARGET_CPU_ABI := arm64-v8a
+TARGET_CPU_VARIANT := generic
+
+TARGET_2ND_ARCH :=
+TARGET_2ND_ARCH_VARIANT :=
+TARGET_2ND_CPU_ABI :=
+TARGET_2ND_CPU_ABI2 :=
+TARGET_2ND_CPU_VARIANT :=
+
+BUILD_EMULATOR := false
+
+TARGET_NO_RADIOIMAGE := true
+
+BOARD_KERNEL_CMDLINE += androidboot.hardware=jetson_nano
+
+TARGET_BOARD_PLATFORM := tegra210
+
+TARGET_BOARD_INFO_FILE := device/nvidia/jetson-nano/board-info.txt
+
+TARGET_BOOTLOADER_BOARD_NAME := jetson_nano
